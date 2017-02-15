@@ -2,6 +2,7 @@ body {
 	background-color: transparent;
 	font-family: 'Quicksand', sans-serif;;
 }
+
 .navb {
 	display: flex;
 	background-color: transparent;
@@ -10,31 +11,37 @@ body {
 	margin: -10px;
 	padding: 10px;
 }
+
 .navb img {
 	width: 84px;
 	height: 60px;
 	margin-right: auto;
 }
+
 .navb li{
 	margin: 20px;
 	list-style-type: none;
 	font: bold 0.9em Helvetica, sans-serif;
 }
+
 .navb li a{
 	text-decoration: none;
 	color: grey;
 }
+
 .body-section {
 	margin-left: 80px;
 	margin-right: 80px;
 }
-.head-content {
+
+.head-content h2{
 	margin-top: 50px;
 	padding-top: 10px;
-	width: 60%;
-	font-size: 1.4em;
 	color: #351A08;
+	width: 70%;
+	font-size: 3em;
 }
+
 .head-content span {
 	color: #FF5A5F;
 	font: bold 1.2em 'Yantramanav', sans-serif;
@@ -47,7 +54,7 @@ body {
 	box-shadow: 1px 1px 3px 1px #888888;
 }
 .experience-search form{
-	padding: 15px;
+	padding: 12px;
 	display: flex;
 	justify-content: flex-start;
 }
@@ -66,7 +73,7 @@ body {
 .input-design {
 	border: 0;
 	font-size: 1.2em;
-	margin-top: 15px;
+	margin-top: 7px;
 }
 input:focus, select:focus{
 	outline: none;
@@ -146,4 +153,20 @@ footer {
 .right-footer img {
 	height: 15px;
 	width: 15px;
+}
+
+@media (max-width: 768px){
+	.head-content h2{
+		width: 100%;
+		font-size: 1.2em;
+		margin-top: 10px;
+	}
+
+}
+@media (max-width: 992px){
+	.head-content h2{
+		width: 90%;
+		font-size: 1.5em;
+		margin-top: 20px;
+	}
 }
