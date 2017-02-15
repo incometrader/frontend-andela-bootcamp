@@ -143,20 +143,21 @@ i.fa {
 	border-top: 3px solid rgb(0, 166, 153);
 	padding-bottom: 5px;
 }
+
 .questions p{
 	padding-top: 10px;
 	font-size: 1.2em;
-
 }
+
 .questions span {
 	color: rgb(0, 166, 153);
 }
+
 footer {
-	display: flex;
-	justify-content: space-between;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 }
-.right-footer img {
+
+footer img {
 	height: 15px;
 	width: 15px;
 }
