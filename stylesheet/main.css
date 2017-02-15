@@ -1,0 +1,106 @@
+body {
+	background-color: transparent;
+	font-family: 'Quicksand', sans-serif;;
+}
+.nav {
+	display: flex;
+	background-color: transparent;
+	height: 60px;
+	width: 100%;
+	margin: -10px;
+	padding: 10px;
+}
+.nav img {
+	width: 40px;
+	height: 40px;
+	margin-right: auto;
+	margin-left: 5px;
+	margin-top: 5px
+}
+.nav li{
+	margin: 20px;
+	list-style-type: none;
+	font: bold 0.8em Helvetica, sans-serif;
+}
+.nav li a{
+	text-decoration: none;
+	color: grey;
+}
+.body-section {
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.head-content {
+	padding-top: 10px;
+	width: 80%;
+	font-size: 1.4em;
+	color: #351A08;
+}
+.head-content span {
+	color: #FF5A5F;
+	font-weight: bold;
+	font-family: 'Yantramanav', sans-serif;
+}
+.experience-search {
+	width: 100%;
+	height: 80px;
+	border-radius: 5px;
+	margin-top: 50px;
+	box-shadow: 1px 1px 3px 1px #888888;
+}
+.experience-search form{
+	padding: 15px;
+	display: flex;
+	justify-content: flex-start;
+}
+.experience-search label {
+	font-weight: bold;
+}
+.experience-search form div{
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-right: 20px;
+	
+}
+#destination {
+	width: 250px;
+}
+.input-design {
+	border: 0;
+	font-size: 1.2em;
+	margin-top: 15px;
+}
+input:focus, select:focus{
+	outline: none;
+	border-bottom: 1px solid grey;
+}
+#experience-time {
+	display: inline-flex;
+	flex-direction: row;
+}
+#guests {
+	background-color: transparent;
+}
+
+input[type="date"]:before {
+	content: attr(placeholder) !important;
+	color: #aaa;
+	margin-right: 0.5em;
+}
+input[type="date"]:focus:before,
+input[type="date"]:valid:before {
+	content: "";
+}
+
+#search-button {
+	font: 1.2em sans-serif;
+	color: white;
+	background-color: #FF5A5F;
+	outline: 0;
+	border: 0;
+	border-radius: 5px;
+	width: 110px;
+	height: 50px;
+	margin-left: 15px;
+}
