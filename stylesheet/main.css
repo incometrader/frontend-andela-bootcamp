@@ -59,7 +59,6 @@ body {
 	flex-direction: column;
 	justify-content: space-around;
 	margin-right: 20px;
-	
 }
 #destination {
 	width: 250px;
@@ -80,7 +79,6 @@ input:focus, select:focus{
 #guests {
 	background-color: transparent;
 }
-
 input[type="date"]:before {
 	content: attr(placeholder) !important;
 	color: #aaa;
@@ -90,7 +88,6 @@ input[type="date"]:focus:before,
 input[type="date"]:valid:before {
 	content: "";
 }
-
 #search-button {
 	font: 1.2em sans-serif;
 	color: white;
@@ -102,9 +99,7 @@ input[type="date"]:valid:before {
 	height: 50px;
 	margin-left: 15px;
 }
-.exp-image {
-	height: 350px;
-}
+
 .middle-section {
 	margin-top: 50px;
 }
@@ -113,4 +108,7 @@ input[type="date"]:valid:before {
 }
 i.fa {
 	color: rgb(0, 166, 153);
+}
+.row p {
+	font-size: 1.1em;
 }
