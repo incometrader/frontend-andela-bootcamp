@@ -2,7 +2,7 @@ body {
 	background-color: transparent;
 	font-family: 'Quicksand', sans-serif;;
 }
-.nav {
+.navb {
 	display: flex;
 	background-color: transparent;
 	height: 60px;
@@ -10,19 +10,17 @@ body {
 	margin: -10px;
 	padding: 10px;
 }
-.nav img {
-	width: 40px;
-	height: 40px;
+.navb img {
+	width: 84px;
+	height: 60px;
 	margin-right: auto;
-	margin-left: 5px;
-	margin-top: 5px
 }
-.nav li{
+.navb li{
 	margin: 20px;
 	list-style-type: none;
-	font: bold 0.8em Helvetica, sans-serif;
+	font: bold 0.9em Helvetica, sans-serif;
 }
-.nav li a{
+.navb li a{
 	text-decoration: none;
 	color: grey;
 }
@@ -31,15 +29,15 @@ body {
 	margin-right: 80px;
 }
 .head-content {
+	margin-top: 50px;
 	padding-top: 10px;
-	width: 80%;
+	width: 60%;
 	font-size: 1.4em;
 	color: #351A08;
 }
 .head-content span {
 	color: #FF5A5F;
-	font-weight: bold;
-	font-family: 'Yantramanav', sans-serif;
+	font: bold 1.2em 'Yantramanav', sans-serif;
 }
 .experience-search {
 	width: 100%;
@@ -103,4 +101,16 @@ input[type="date"]:valid:before {
 	width: 110px;
 	height: 50px;
 	margin-left: 15px;
+}
+.exp-image {
+	height: 350px;
+}
+.middle-section {
+	margin-top: 50px;
+}
+.middle-section h4 {
+	margin-bottom: 20px;
+}
+i.fa {
+	color: rgb(0, 166, 153);
 }
