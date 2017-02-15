@@ -109,6 +109,41 @@ input[type="date"]:valid:before {
 i.fa {
 	color: rgb(0, 166, 153);
 }
-.row p {
+.entries p {
 	font-size: 1.1em;
+}
+
+.bolder-text h3 {
+	font-weight: bold;
+}
+
+.bolder-text p {
+	font-size: 1.3em;
+}
+.space-in {
+	padding: 30px;
+}
+
+.questions h3 {
+	font-weight: bold;
+	padding-top: 25px;
+	border-top: 3px solid rgb(0, 166, 153);
+	padding-bottom: 5px;
+}
+.questions p{
+	padding-top: 10px;
+	font-size: 1.2em;
+
+}
+.questions span {
+	color: rgb(0, 166, 153);
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 15px;
+}
+.right-footer img {
+	height: 15px;
+	width: 15px;
 }
